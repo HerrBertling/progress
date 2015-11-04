@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Do 10 pushups.",
+    "type": "Sports"
+  },
+  {
+    "text": "Take a walk to work.",
+    "type": "Sports"
+  },
+  {
+    "text": "Call a friend you haven't spoken for a few months.",
+    "type": "Relationships"
+  },
+  {
+    "text": "Put 10$ into your savings account.",
+    "type": "Money"
+  },
+  {
+    "text": "Sit down and concentrate on your breath for 10 minutes.",
+    "type": "Mind"
+  },
+  {
+    "text": "Take notes for 30 seconds after each meeting.",
+    "type": "Job"
+  },
+  {
+    "text": "Open Wikipedia and read a random article.",
+    "type": "Knowledge"
+  },
+  {
+    "text": "Draw the view from your window with pencil and paper.",
+    "type": "Creativity"
+  }
+]
