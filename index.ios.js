@@ -25,9 +25,14 @@ var progress = React.createClass({
     return (
       <Image
         style={styles.container}
-        source={{uri: 'https://images.unsplash.com/photo-1440470177828-6381dc5074ba?ixlib=rb-0.3.5&q=80&fm=jpg&s=6faf705d60f9804d03079755fb323a9a'}}
+        source={require('image!job')}
       >
-        <View style={styles.textWrapper}>
+        <View style={[
+          styles.textWrapper,
+          {
+            backgroundColor: 'rgba(11,136,191,0.7)',
+          }
+        ]}>
           <Text
             style={[
               styles.category,
@@ -54,6 +59,9 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     resizeMode: 'cover',
+    // setting these to null avoids too huge images
+    width: null,
+    height: null,
   },
   textWrapper: {
     alignItems: 'center',
