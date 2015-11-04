@@ -1,2 +1,2 @@
-# progress
-Get better every day.
+# Progress
+## Get better. Every day.
