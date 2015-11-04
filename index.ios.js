@@ -63,25 +63,25 @@ var styles = StyleSheet.create({
     padding: 20,
   },
   Sports: {
-    backgroundColor: 'rgba(67,146,241,0.7)',
+    backgroundColor: 'rgba(24,54,241,0.7)',
   },
   Relationships: {
-    backgroundColor: 'rgba(152,38,73,0.7)',
+    backgroundColor: 'rgba(221,38,75,0.7)',
   },
   Money: {
-    backgroundColor: 'rgba(117,185,190,0.7)',
+    backgroundColor: 'rgba(90,173,76,0.7)',
   },
   Mind: {
-    backgroundColor: 'rgba(83,18,83,0.7)',
+    backgroundColor: 'rgba(102,18,129,0.75)',
   },
   Job: {
-    backgroundColor: 'rgba(36,123,160,0.7)',
+    backgroundColor: 'rgba(11,136,191,0.7)',
   },
   Knowledge: {
-    backgroundColor: 'rgba(240,200,8,0.7)',
+    backgroundColor: 'rgba(240,200,46,0.8)',
   },
   Creativity: {
-    backgroundColor: 'rgba(204,88,3,0.7)',
+    backgroundColor: 'rgba(236,88,3,0.7)',
   },
   text: {
     backgroundColor: 'transparent',
