@@ -25,7 +25,7 @@ var progress = React.createClass({
     return (
       <Image
         style={styles.container}
-        source={require('image!job')}
+        source={require('image!mind')}
       >
         <View style={[
           styles.textWrapper,
@@ -98,8 +98,8 @@ var styles = StyleSheet.create({
     textAlign: 'center',
   },
   category: {
-    color: 'rgba(255,255,255,0.5)',
-    fontSize: 18,
+    color: 'rgba(255,255,255,0.7)',
+    fontSize: 24,
   },
   task: {
     color: '#FFFFFF',
