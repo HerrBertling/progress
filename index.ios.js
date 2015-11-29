@@ -16,21 +16,55 @@ var {
   StatusBarIOS,
 } = React;
 
+var imgBody = require('image!body');
+var imgCreativity = require('image!creativity');
+var imgJob = require('image!job');
+var imgKnowledge = require('image!knowledge');
+var imgMind = require('image!mind');
+var imgMoney = require('image!money');
+var imgRelationships = require('image!relationships');
+
+var topicImages = {
+  body: imgBody,
+  creativity: imgCreativity,
+  job: imgJob,
+  knowledge: imgKnowledge,
+  mind: imgMind,
+  money: imgMoney,
+  relationships: imgRelationships,
+};
+
+var topicBackground = {
+  body: 'rgba(1,32,178,0.7)',
+  creativity: 'rgba(236,88,3,0.7)',
+  job: 'rgba(11,136,191,0.7)',
+  knowledge: 'rgba(240,200,46,0.8)',
+  mind: 'rgba(102,18,129,0.75)',
+  money: 'rgba(90,173,76,0.7)',
+  relationships: 'rgba(221,38,75,0.7)',
+};
+
 var progress = React.createClass({
 
   render: function() {
+
     StatusBarIOS.setStyle(1);
+
     var randomTask = Math.floor(Tasks.length * Math.random());
     var task = Tasks[randomTask];
+    var taskStyle = task.type.toLowerCase();
+    var taskImage = topicImages[taskStyle];
+    var taskBackground = topicBackground[taskStyle];
+
     return (
       <Image
         style={styles.container}
-        source={require('image!mind')}
+        source={taskImage}
       >
         <View style={[
           styles.textWrapper,
           {
-            backgroundColor: 'rgba(11,136,191,0.7)',
+            backgroundColor: taskBackground,
           }
         ]}>
           <Text
@@ -69,27 +103,6 @@ var styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 20,
-  },
-  Sports: {
-    backgroundColor: 'rgba(24,54,241,0.7)',
-  },
-  Relationships: {
-    backgroundColor: 'rgba(221,38,75,0.7)',
-  },
-  Money: {
-    backgroundColor: 'rgba(90,173,76,0.7)',
-  },
-  Mind: {
-    backgroundColor: 'rgba(102,18,129,0.75)',
-  },
-  Job: {
-    backgroundColor: 'rgba(11,136,191,0.7)',
-  },
-  Knowledge: {
-    backgroundColor: 'rgba(240,200,46,0.8)',
-  },
-  Creativity: {
-    backgroundColor: 'rgba(236,88,3,0.7)',
   },
   text: {
     backgroundColor: 'transparent',
