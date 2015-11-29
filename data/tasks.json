@@ -1,14 +1,38 @@
 [
   {
     "text": "Do 10 pushups.",
-    "type": "Sports"
+    "type": "Body"
   },
   {
     "text": "Take a walk to work.",
-    "type": "Sports"
+    "type": "Body"
+  },
+  {
+    "text": "Only drink water today.",
+    "type": "Body"
+  },
+  {
+    "text": "Get up and take a short walk every hour.",
+    "type": "Body"
+  },
+  {
+    "text": "Work in a standing position today.",
+    "type": "Body"
+  },
+  {
+    "text": "Sleep one hour earlier than usual today.",
+    "type": "Body"
   },
   {
     "text": "Call a friend you haven't spoken for some time.",
+    "type": "Relationships"
+  },
+  {
+    "text": "Buy flowers for your significant other.",
+    "type": "Relationships"
+  },
+  {
+    "text": "Invite a friend over to your place.",
     "type": "Relationships"
   },
   {
@@ -20,7 +44,19 @@
     "type": "Mind"
   },
   {
+    "text": "Read a book for 30 minutes before sleeping.",
+    "type": "Mind"
+  },
+  {
+    "text": "Shut off your phone for one hour.",
+    "type": "Mind"
+  },
+  {
     "text": "Take notes for 30 seconds after each meeting.",
+    "type": "Job"
+  },
+  {
+    "text": "Volunteer for cleaning the dishes in the office.",
     "type": "Job"
   },
   {
